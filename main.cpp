@@ -71,7 +71,7 @@ void World::run()
     loc.x = 0;
     loc.y = 0;
 
-    SDL_Surface* tank = SDL_LoadBMP( "small_tank.bmp" );
+    SDL_Surface* tank = SDL_LoadBMP( "assets/small_tank.bmp" );
     if (!tank)
     {
         throw "Unable to load tank asset";
